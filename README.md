@@ -62,6 +62,5 @@ Optional. Full path to the output file. If `out` is specified then `outDir` is i
 
 #### indent
 Type: `String`
-Default value: `'   '`
 
 Optional. Character sequence to use for indent. Default is four spaces.
