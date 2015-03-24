@@ -1,7 +1,7 @@
 {
   "name": "grunt-dts-concat",
   "description": "Combines TypeScript .d.ts files into a single .d.ts file for distributing CommonJS modules.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/artifacthealth/grunt-dts-concat",
   "author": {
     "name": "Artifact Health, LLC",

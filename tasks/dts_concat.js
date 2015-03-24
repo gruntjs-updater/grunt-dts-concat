@@ -32,10 +32,10 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerTask('dts_concat', 'Combines TypeScript .d.ts files into a single .d.ts file for distributing CommonJS modules.', function() {
+  grunt.registerMultiTask('dts_concat', 'Combines TypeScript .d.ts files into a single .d.ts file for distributing CommonJS modules.', function() {
 
     var done = this.async();
-    concat(this.data.options, done);
+    concat(this.options(), done);
   });
 
 }
